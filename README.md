@@ -4,6 +4,6 @@ Project in VHDL on Tomasulo's Algorithm, a computer architecture hardware algori
 -Top level 
 ![TOP](https://github.com/TheodorosChalimas/Tomasulo-sAlgorithm/assets/63141085/b115bc6b-e454-4553-9331-49a43246429c)
 
--Reorder buffer
+-Reorder buffer (ROB Top Level)
 ![ROBTOP](https://github.com/TheodorosChalimas/Tomasulo-sAlgorithm/assets/63141085/8099cf55-ee04-4c73-9677-d01850c0958b)
 
