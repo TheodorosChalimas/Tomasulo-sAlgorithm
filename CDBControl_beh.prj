@@ -1,0 +1,3 @@
+vhdl work "MUX2TO1.vhd"
+vhdl work "CDB.vhd"
+vhdl work "CDBControl.vhd"

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/Desktop/LAB5_FINAL/TOMASULO/try1_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="try1" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="22" />
+   <wvobject fp_name="/try1/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/try1/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/try1/opout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">opout[1:0]</obj_property>
+      <obj_property name="ObjectShortName">opout[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/try1/futypeout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">futypeout[1:0]</obj_property>
+      <obj_property name="ObjectShortName">futypeout[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/try1/rsreq" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rsreq</obj_property>
+      <obj_property name="ObjectShortName">rsreq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/try1/vj" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">vj[31:0]</obj_property>
+      <obj_property name="ObjectShortName">vj[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/try1/vk" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">vk[31:0]</obj_property>
+      <obj_property name="ObjectShortName">vk[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/try1/qj" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">qj[4:0]</obj_property>
+      <obj_property name="ObjectShortName">qj[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/try1/qk" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">qk[4:0]</obj_property>
+      <obj_property name="ObjectShortName">qk[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/try1/acc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">acc[1:0]</obj_property>
+      <obj_property name="ObjectShortName">acc[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/try1/q" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q[4:0]</obj_property>
+      <obj_property name="ObjectShortName">q[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/try1/data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/try1/cdbdata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cdbdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cdbdata[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/try1/cdbtagout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cdbtagout[4:0]</obj_property>
+      <obj_property name="ObjectShortName">cdbtagout[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/try1/cdbreq" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cdbreq</obj_property>
+      <obj_property name="ObjectShortName">cdbreq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/try1/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/try1/uut/FunctionalUnitArithmetic/crntstate" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">crntstate</obj_property>
+      <obj_property name="ObjectShortName">crntstate</obj_property>
+   </wvobject>
+   <wvobject fp_name="/try1/uut/FunctionalUnitArithmetic/fubu" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">fubu</obj_property>
+      <obj_property name="ObjectShortName">fubu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/try1/uut/FunctionalUnitArithmetic/sigdata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sigdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sigdata[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/try1/uut/ReservatioStationArithm/bu" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">bu[2:0]</obj_property>
+      <obj_property name="ObjectShortName">bu[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/try1/uut/ReservatioStationArithm/re" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">re[2:0]</obj_property>
+      <obj_property name="ObjectShortName">re[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/try1/uut/ArithmeticControl/wren" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wren[2:0]</obj_property>
+      <obj_property name="ObjectShortName">wren[2:0]</obj_property>
+   </wvobject>
+</wave_config>

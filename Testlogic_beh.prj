@@ -1,0 +1,6 @@
+vhdl work "RSReg.vhd"
+vhdl work "ReservationStationLogic.vhd"
+vhdl work "LocalControlLogic.vhd"
+vhdl work "FULogic.vhd"
+vhdl work "TOPLEVEL_RSFU_LOGIC.vhd"
+vhdl work "Testlogic.vhd"

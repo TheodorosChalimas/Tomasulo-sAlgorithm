@@ -1,0 +1,71 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -o "D:/Desktop/TOMASULO (2)/TOMASULO/testbench_isim_beh.exe" -prj "D:/Desktop/TOMASULO (2)/TOMASULO/testbench_beh.prj" "work.testbench" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/Desktop/TOMASULO (2)/TOMASULO/RSReg.vhd" into library work
+Parsing VHDL file "D:/Desktop/TOMASULO (2)/TOMASULO/Register_RoB.vhd" into library work
+Parsing VHDL file "D:/Desktop/TOMASULO (2)/TOMASULO/Register.vhd" into library work
+Parsing VHDL file "D:/Desktop/TOMASULO (2)/TOMASULO/RBuffer.vhd" into library work
+Parsing VHDL file "D:/Desktop/TOMASULO (2)/TOMASULO/MUX5bit_32to1.vhd" into library work
+Parsing VHDL file "D:/Desktop/TOMASULO (2)/TOMASULO/MUX32TO1.vhd" into library work
+Parsing VHDL file "D:/Desktop/TOMASULO (2)/TOMASULO/DEMUX32.vhd" into library work
+Parsing VHDL file "D:/Desktop/TOMASULO (2)/TOMASULO/RFnote.vhd" into library work
+Parsing VHDL file "D:/Desktop/TOMASULO (2)/TOMASULO/RF.vhd" into library work
+Parsing VHDL file "D:/Desktop/TOMASULO (2)/TOMASULO/ReservationStationLogic.vhd" into library work
+Parsing VHDL file "D:/Desktop/TOMASULO (2)/TOMASULO/ReservationStationArithmetic.vhd" into library work
+Parsing VHDL file "D:/Desktop/TOMASULO (2)/TOMASULO/Reorder_Buffer.vhd" into library work
+Parsing VHDL file "D:/Desktop/TOMASULO (2)/TOMASULO/MUX_2to1_5.vhd" into library work
+Parsing VHDL file "D:/Desktop/TOMASULO (2)/TOMASULO/MUX_2to1_32.vhd" into library work
+Parsing VHDL file "D:/Desktop/TOMASULO (2)/TOMASULO/LocalControlLogic.vhd" into library work
+Parsing VHDL file "D:/Desktop/TOMASULO (2)/TOMASULO/LocalControlArithmetic.vhd" into library work
+Parsing VHDL file "D:/Desktop/TOMASULO (2)/TOMASULO/FULogic.vhd" into library work
+Parsing VHDL file "D:/Desktop/TOMASULO (2)/TOMASULO/FUArithmetic.vhd" into library work
+Parsing VHDL file "D:/Desktop/TOMASULO (2)/TOMASULO/CDB.vhd" into library work
+Parsing VHDL file "D:/Desktop/TOMASULO (2)/TOMASULO/TOPLEVEL_RSFU_LOGIC.vhd" into library work
+Parsing VHDL file "D:/Desktop/TOMASULO (2)/TOMASULO/TOPLEVEL_RSFU.vhd" into library work
+Parsing VHDL file "D:/Desktop/TOMASULO (2)/TOMASULO/RoBToP.vhd" into library work
+Parsing VHDL file "D:/Desktop/TOMASULO (2)/TOMASULO/Issue.vhd" into library work
+Parsing VHDL file "D:/Desktop/TOMASULO (2)/TOMASULO/CDBControl.vhd" into library work
+Parsing VHDL file "D:/Desktop/TOMASULO (2)/TOMASULO/TOPLEVEL.vhd" into library work
+Parsing VHDL file "D:/Desktop/TOMASULO (2)/TOMASULO/TEST.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity RBuffer [rbuffer_default]
+Compiling architecture behavioral of entity Reorder_Buffer [reorder_buffer_default]
+Compiling architecture behavioral of entity RegisterNote [registernote_default]
+Compiling architecture behavioral of entity MUX5bit_32to1 [mux5bit_32to1_default]
+Compiling architecture behavioral of entity DEMUX32 [demux32_default]
+Compiling architecture behavioral of entity RFnote [rfnote_default]
+Compiling architecture behavioral of entity Register37 [register37_default]
+Compiling architecture behavioral of entity MUX32bit_32to1 [mux32bit_32to1_default]
+Compiling architecture behavioral of entity RF [rf_default]
+Compiling architecture behavioral of entity MUX_2to1_32 [mux_2to1_32_default]
+Compiling architecture behavioral of entity MUX_2to1_5 [mux_2to1_5_default]
+Compiling architecture behavioral of entity RoBToP [robtop_default]
+Compiling architecture behavioral of entity Issue [issue_default]
+Compiling architecture behavioral of entity CDB [cdb_default]
+Compiling architecture behavioral of entity CDBControl [cdbcontrol_default]
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity LocalControlLogic [localcontrollogic_default]
+Compiling architecture behavioral of entity FULogic [fulogic_default]
+Compiling architecture behavioral of entity RSReg [rsreg_default]
+Compiling architecture behavioral of entity ReservatioStationLogic [reservatiostationlogic_default]
+Compiling architecture behavioral of entity TOPLEVEL_RSFU_LOGIC [toplevel_rsfu_logic_default]
+Compiling architecture behavioral of entity LocalControlArithmetic [localcontrolarithmetic_default]
+Compiling architecture behavioral of entity FUArithmetic [fuarithmetic_default]
+Compiling architecture behavioral of entity ReservatioStationArithmetic [reservatiostationarithmetic_defa...]
+Compiling architecture behavioral of entity TOPLEVEL_RSFU [toplevel_rsfu_default]
+Compiling architecture behavioral of entity TOPLEVEL [toplevel_default]
+Compiling architecture behavior of entity testbench
+Time Resolution for simulation is 1ps.
+Waiting for 13 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: The system cannot find the path specified, "isim\testbench_isim_beh.exe.sim\libPortability.dll".
+Compiled 56 VHDL Units
+Built simulation executable D:/Desktop/TOMASULO (2)/TOMASULO/testbench_isim_beh.exe
+Fuse Memory Usage: 40368 KB
+Fuse CPU Usage: 1187 ms

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/Desktop/TOMASULO/RoBTEST_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="robtest" />
+            <top_module name="std_logic_1164" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="33" />
+   <wvobject fp_name="/robtest/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/robtest/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/robtest/rj" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rj[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rj[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/robtest/rk" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rk[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rk[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/robtest/ri" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ri[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ri[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/robtest/wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wren</obj_property>
+      <obj_property name="ObjectShortName">wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/robtest/uut/full" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/robtest/op" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">op[1:0]</obj_property>
+      <obj_property name="ObjectShortName">op[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/robtest/fu" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">fu[1:0]</obj_property>
+      <obj_property name="ObjectShortName">fu[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/robtest/cdbq" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cdbq[4:0]</obj_property>
+      <obj_property name="ObjectShortName">cdbq[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/robtest/cdbdata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cdbdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cdbdata[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/robtest/robtail" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">robtail[4:0]</obj_property>
+      <obj_property name="ObjectShortName">robtail[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/robtest/robhead" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">robhead[4:0]</obj_property>
+      <obj_property name="ObjectShortName">robhead[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/robtest/rf_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_wren</obj_property>
+      <obj_property name="ObjectShortName">rf_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/robtest/rf_ri" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_ri[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_ri[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/robtest/rf_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_data[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/robtest/uut/sigriiss" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sigriiss[4:0]</obj_property>
+      <obj_property name="ObjectShortName">sigriiss[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/robtest/uut/crntstate" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">crntstate</obj_property>
+      <obj_property name="ObjectShortName">crntstate</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider29" type="divider">
+      <obj_property name="label">RoB1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/robtest/uut/Reg1/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/robtest/uut/Reg1/valuein" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">valuein[31:0]</obj_property>
+      <obj_property name="ObjectShortName">valuein[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/robtest/uut/Reg1/riin" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">riin[4:0]</obj_property>
+      <obj_property name="ObjectShortName">riin[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/robtest/uut/Reg1/readyin" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">readyin</obj_property>
+      <obj_property name="ObjectShortName">readyin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/robtest/uut/Reg1/wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wren</obj_property>
+      <obj_property name="ObjectShortName">wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/robtest/uut/Reg1/cdbwren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cdbwren</obj_property>
+      <obj_property name="ObjectShortName">cdbwren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/robtest/uut/Reg1/value" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">value[31:0]</obj_property>
+      <obj_property name="ObjectShortName">value[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/robtest/uut/Reg1/ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/robtest/uut/Reg1/ri" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ri[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ri[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/robtest/uut/Reg2/ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/robtest/uut/Reg2/ri" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ri[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ri[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/robtest/uut/Reg3/ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/robtest/uut/Reg3/ri" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ri[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ri[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/robtest/uut/Reg4/ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+</wave_config>

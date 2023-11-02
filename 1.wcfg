@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/Desktop/TOMASULO (2)/TOMASULO/TOProbTEST_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="std_logic_1164" />
+            <top_module name="toprobtest" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="41" />
+   <wvobject fp_name="/toprobtest/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toprobtest/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toprobtest/rj" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rj[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rj[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toprobtest/rk" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rk[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rk[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toprobtest/ri" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ri[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ri[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toprobtest/wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wren</obj_property>
+      <obj_property name="ObjectShortName">wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toprobtest/op" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">op[1:0]</obj_property>
+      <obj_property name="ObjectShortName">op[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toprobtest/fu" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">fu[1:0]</obj_property>
+      <obj_property name="ObjectShortName">fu[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toprobtest/cdbq" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cdbq[4:0]</obj_property>
+      <obj_property name="ObjectShortName">cdbq[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toprobtest/cdbdata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cdbdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cdbdata[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toprobtest/full" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toprobtest/tag" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tag[4:0]</obj_property>
+      <obj_property name="ObjectShortName">tag[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toprobtest/uut/RoB/robhead" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">robhead[4:0]</obj_property>
+      <obj_property name="ObjectShortName">robhead[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toprobtest/uut/RoB/robtail" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">robtail[4:0]</obj_property>
+      <obj_property name="ObjectShortName">robtail[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toprobtest/uut/RegFile/Reg3/data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toprobtest/uut/RoB/Reg1/value" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">value[31:0]</obj_property>
+      <obj_property name="ObjectShortName">value[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toprobtest/uut/RoB/sigready1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sigready1</obj_property>
+      <obj_property name="ObjectShortName">sigready1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toprobtest/uut/RoB/sigreadyin1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sigreadyin1</obj_property>
+      <obj_property name="ObjectShortName">sigreadyin1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toprobtest/uut/RoB/ready1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ready1</obj_property>
+      <obj_property name="ObjectShortName">ready1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toprobtest/uut/RoB/ready2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ready2</obj_property>
+      <obj_property name="ObjectShortName">ready2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toprobtest/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toprobtest/uut/RoB/Reg1/value" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">value[31:0]</obj_property>
+      <obj_property name="ObjectShortName">value[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">REG1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toprobtest/uut/RoB/Reg2/value" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">value[31:0]</obj_property>
+      <obj_property name="ObjectShortName">value[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">REG2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toprobtest/uut/RoB/Reg3/value" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">value[31:0]</obj_property>
+      <obj_property name="ObjectShortName">value[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">REG3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toprobtest/uut/RoB/Reg4/value" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">value[31:0]</obj_property>
+      <obj_property name="ObjectShortName">value[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">REG4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toprobtest/uut/RoB/Reg5/value" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">value[31:0]</obj_property>
+      <obj_property name="ObjectShortName">value[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">REG5</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toprobtest/uut/RoB/Reg6/value" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">value[31:0]</obj_property>
+      <obj_property name="ObjectShortName">value[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">REG6</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toprobtest/uut/RoB/Reg7/value" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">value[31:0]</obj_property>
+      <obj_property name="ObjectShortName">value[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">REG7</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider43" type="divider">
+      <obj_property name="label">REGS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toprobtest/uut/RoB/rf_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_wren</obj_property>
+      <obj_property name="ObjectShortName">rf_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toprobtest/uut/RoB/rf_ri" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_ri[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_ri[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toprobtest/uut/RoB/rf_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_data[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toprobtest/uut/RoB/Reg1/riin" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">riin[4:0]</obj_property>
+      <obj_property name="ObjectShortName">riin[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toprobtest/uut/RoB/Reg1/ri" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ri[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ri[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toprobtest/uut/RegFile/Reg3/data" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">R3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toprobtest/uut/RegFile/Reg4/data" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">R4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toprobtest/uut/RegFile/Reg5/data" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">R5</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toprobtest/uut/RegFile/Reg6/data" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">R6</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toprobtest/uut/RegFile/Reg7/data" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">R7</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toprobtest/uut/RegFile/Reg8/data" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">R8</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toprobtest/uut/RegFile/Reg9/data" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">R9</obj_property>
+   </wvobject>
+</wave_config>

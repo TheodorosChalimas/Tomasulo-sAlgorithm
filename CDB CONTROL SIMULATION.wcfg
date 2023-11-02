@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/User/Desktop/HMMY/arxitektonikh ypologistwn/ergastirio/3/TOMASULO/TEST_CDBcontrol_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="std_logic_1164" />
+            <top_module name="test_cdbcontrol" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/test_cdbcontrol/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cdbcontrol/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cdbcontrol/req" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">req[1:0]</obj_property>
+      <obj_property name="ObjectShortName">req[1:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cdbcontrol/qina" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">qina[4:0]</obj_property>
+      <obj_property name="ObjectShortName">qina[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cdbcontrol/dataina" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dataina[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dataina[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cdbcontrol/qinl" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">qinl[4:0]</obj_property>
+      <obj_property name="ObjectShortName">qinl[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cdbcontrol/datainl" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">datainl[31:0]</obj_property>
+      <obj_property name="ObjectShortName">datainl[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cdbcontrol/acc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">acc[1:0]</obj_property>
+      <obj_property name="ObjectShortName">acc[1:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cdbcontrol/q" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q[4:0]</obj_property>
+      <obj_property name="ObjectShortName">q[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cdbcontrol/data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cdbcontrol/uut/crntstate" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">crntstate</obj_property>
+      <obj_property name="ObjectShortName">crntstate</obj_property>
+   </wvobject>
+</wave_config>

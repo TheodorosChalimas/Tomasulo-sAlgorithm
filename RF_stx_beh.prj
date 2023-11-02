@@ -1,0 +1,4 @@
+vhdl isim_temp "Register.vhd"
+vhdl isim_temp "MUX32TO1.vhd"
+vhdl isim_temp "DEMUX32.vhd"
+vhdl isim_temp "RF.vhd"

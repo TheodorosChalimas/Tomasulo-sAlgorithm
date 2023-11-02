@@ -1,0 +1,6 @@
+vhdl isim_temp "RSReg.vhd"
+vhdl isim_temp "ReservationStationArithmetic.vhd"
+vhdl isim_temp "LocalControlArithmetic.vhd"
+vhdl isim_temp "FUArithmetic.vhd"
+vhdl isim_temp "TOPLEVEL_RSFU.vhd"
+vhdl isim_temp "try1.vhd"
